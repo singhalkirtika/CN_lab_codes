@@ -1,0 +1,8 @@
+What is a socket ?
+
+A socket is the one end-point of a two-way communication link between two programs running over the network.Running over the network means that the programs run on different computers, usually referred as the local and the remote computers.
+However one can run the two programs on the same computer. Such communicating programs constitutes a client/server application. The server implements a dedicated logic, calledservice.  The clients connect to the server to get 
+served, for example, to obtain some data or to ask for the computation of some data. Different client/server applications implement different kind of services.
+
+To distinguish different services, a numbering convention was proposed. This convention uses integer numbers, called port numbers, to denote the services.
+ 
